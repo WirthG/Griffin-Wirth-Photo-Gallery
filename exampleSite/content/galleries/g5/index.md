@@ -1,5 +1,5 @@
 ---
-title: Digital Art Project - Emoji
+title: Digital Art Project - "Really" Emoji
 categories: [Emoji, Gravity Design,]
 date: 2020-12-15
 ---
