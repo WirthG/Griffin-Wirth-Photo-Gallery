@@ -1,5 +1,5 @@
 ---
-title: Digital Art Project - "Really" Emoji
+title: Digital Art Project - "Unimpressed" Emoji
 categories: [Emoji, Gravity Design,]
 date: 2020-12-15
 ---
