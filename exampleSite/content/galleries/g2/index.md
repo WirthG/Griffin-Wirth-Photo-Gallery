@@ -1,7 +1,8 @@
 ---
 title: Architecture
-date: 2020-01-01
 categories: [travel,funny]
+date: 2020-01-01
+
 
 ---
 
