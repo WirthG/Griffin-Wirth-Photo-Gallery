@@ -9,4 +9,4 @@ tags        = ["Gallery", "Responsive"]
 min_version = "0.90.0"
 [author]
   name     = "Griffin Wirth"
-  homepage = "https://github.com/WirthG/Griffin-Wirth-Photo-Gallery"
+  homepage = "https://griffin-wirth-creative-portfolio.netlify.app/"
