@@ -1,5 +1,5 @@
 ---
-title: Griffin Wirth's Photo Album
+title: Griffin Wirth's Artistic Portfolio
 linkTitle: Home
 ---
 
