@@ -2,7 +2,7 @@
   <h1>{{ .Title }}</h1>
   <div>
     {{ if .IsHome }}
-      {{ $pages := slice (site.GetPage "categories") }}
+      <!-- {{ $pages := slice (site.GetPage "categories") }} -->
       {{ with site.GetPage "about" }}
         {{ $pages = $pages | append . }}
       {{ end }}
