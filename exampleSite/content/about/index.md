@@ -10,7 +10,6 @@ This page goes more in depth to each section of the website.
 ## Jazz
 
 
-
 ## Photographs
 
 ## Film
