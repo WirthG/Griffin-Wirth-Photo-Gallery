@@ -6,13 +6,7 @@
       {{ with site.GetPage "about" }}
         {{ $pages = $pages | append . }}
       {{ end }}
-      <ul>
-        {{ range $pages }}
-          <li>
-            <a href="/home/">Home</a>
-            <a href="/about/">About</a>
-          </li>
-        {{ end }}
+      
       </ul>
     {{ else }}
       {{ $categories := .GetTerms "categories" }}
