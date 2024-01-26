@@ -9,8 +9,7 @@
       <ul>
         {{ range $pages }}
           <li>
-            <a href="/home/">Home</a>
-            <a href="/about/">About</a>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
           </li>
         {{ end }}
       </ul>
