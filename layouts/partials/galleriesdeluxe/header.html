@@ -2,7 +2,7 @@
   <h1>{{ .Title }}</h1>
   <div>
     {{ if .IsHome }}
-      {{ $pages := slice (site.GetPage "Home") }}
+      {{ $pages := slice (site.GetPage "categories") }}
       {{ with site.GetPage "about" }}
         {{ $pages = $pages | append . }}
       {{ end }}
@@ -14,7 +14,7 @@
         {{ end }}
       </ul>
     {{ else }}
-      {{ $Home := .GetTerms "Home" }}
+      {{ $categories := .GetTerms "categories" }}
       <ul>
         <li>
           <a href="{{ site.Home.RelPermalink }}">{{ site.Home.LinkTitle }}</a>
@@ -27,7 +27,7 @@
           {{ end }}
         {{ end }}
 
-        {{ range $Home }}
+        {{ range $categories }}
           <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
         {{ end }}
       </ul>
